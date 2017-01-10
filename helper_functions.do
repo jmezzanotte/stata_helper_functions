@@ -22,7 +22,6 @@
 		
 		
 		//matrix rownames `3' = `rows'
-		di "WERE HEREERERERER `MATRIX_NAME'"
 		matrix colnames `3' = `cols'
 		
 	
