@@ -16,7 +16,18 @@ Call in the helper_functions.do file into your main analysis script.
 This function will create a matrix using the results of the tab command. This function uses ``` tab <var1> <var2>, mat(<matname>)```
 to create the matrix. This function will automatically assign row and column names to the matrix. You can access the matrix using: 
 ```matrix dir```
+	
+		@Params 
+			1 - row tab variable
+			2 - column tab variable
+			3 - Matrix name as string
+		
+# Usage of create_table 
+```
+create_table var by_var "matrix_name"
+matrix list matrix_name
 
+```
 
 
 
